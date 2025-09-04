@@ -10,6 +10,13 @@
     <atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Blog</title>
+      <link>/posts/a-new-post/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/a-new-post/</guid>
+      <description>&lt;p&gt;Testing!!!&#xA;123&lt;/p&gt;&#xA;&lt;p&gt;!&lt;img src=&#34;/images/Pasted%20image%2020250904000823.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First Blog</title>
       <link>/posts/my-first-blog-post/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
       <guid>/posts/my-first-blog-post/</guid>
