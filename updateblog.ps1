@@ -129,12 +129,12 @@ Write-Host "Deploying to GitHub Hostinger..."
 # Check if the temporary branch exists and delete it
 $branchExists = git branch --list "hostinger-deploy"
 if ($branchExists) {
-    git branch -D hostinger-deploy
+    git branch -D namecheap-deploy
 }
 
 # Perform subtree split
 try {
-    git subtree split --prefix public -b hostinger-deploy
+    git subtree split --prefix public -b namecheap-deploy
 } catch {
     Write-Error "Subtree split failed."
     exit 1
@@ -142,14 +142,14 @@ try {
 
 # Push to hostinger branch with force
 try {
-    git push origin hostinger-deploy:hostinger --force
+    git push origin namecheap-deploy:namecheap --force
 } catch {
     Write-Error "Failed to push to hostinger branch."
-    git branch -D hostinger-deploy
+    git branch -D namecheap-deploy
     exit 1
 }
 
 # Delete the temporary branch
-git branch -D hostinger-deploy
+git branch -D namecheap-deploy
 
 Write-Host "All done! Site synced, processed, committed, built, and deployed."
