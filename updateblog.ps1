@@ -5,7 +5,7 @@ $sourcePath = "C:\Users\sehza\Documents\notes\posts"
 $destinationPath = "C:\Users\sehza\Documents\ThOfficialDevBlogs\content\posts"
 
 # Set Github repo 
-$myrepo = "reponame"
+$myrepo = "git@github.com:ThOfficialCoder/ThOfficialBlog.git"
 
 # Set error handling
 $ErrorActionPreference = "Stop"
