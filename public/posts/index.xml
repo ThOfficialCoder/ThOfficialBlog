@@ -22,5 +22,12 @@
       <guid>/posts/my-first-blog-post/</guid>
       <description>&lt;p&gt;This is the first blog post.&#xA;!&lt;img src=&#34;/images/Cat.jpg&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>PLEASE WORK!!!</title>
+      <link>/posts/please-work/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/please-work/</guid>
+      <description>&lt;p&gt;Random image for now!&lt;/p&gt;&#xA;&lt;p&gt;!&lt;img src=&#34;/images/Pasted%20image%2020250904001805.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;yessssss&#34;&gt;YESSSSSS&lt;/h1&gt;</description>
+    </item>
   </channel>
 </rss>
