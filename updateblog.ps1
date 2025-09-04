@@ -127,7 +127,7 @@ try {
 Write-Host "Deploying to GitHub Hostinger..."
 
 # Check if the temporary branch exists and delete it
-$branchExists = git branch --list "hostinger-deploy"
+$branchExists = git branch --list "namecheap-deploy"
 if ($branchExists) {
     git branch -D namecheap-deploy
 }
@@ -145,7 +145,7 @@ try {
     git push origin namecheap-deploy:namecheap --force
 } catch {
     Write-Error "Failed to push to hostinger branch."
-    git branch -D namecheap-deploy
+    git branch -D namecheap
     exit 1
 }
 

@@ -8,4 +8,4 @@ tags:
 ---
 
 This is the first blog post.
-!![Image Description](/images/Cat.jpg)
+![[Cat.jpg]]
