@@ -6,6 +6,5 @@ tags:
   - ThOfficial
   - blog
 ---
-
 This is the first blog post.
-![[Cat.jpg]]
+!![Image Description](/images/Pasted%20image%2020250904002725.png)
